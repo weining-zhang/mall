@@ -3,13 +3,16 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+import FastClick from 'fastclick';
+
 import VueLazyLoad from 'vue-lazyload';
 
 // import toast from './components/common/toast'; 
 
-// import Vant from 'vant';
-// import 'vant/lib/index.css';
 import { Icon } from 'vant';
+
+// 解决移动端点击300ms延迟
+FastClick.attach(document.body)
 
 // 使用图片懒加载的插件
 Vue.use(VueLazyLoad)
@@ -23,7 +26,6 @@ Vue.prototype.$bus = new Vue()
 // Vue.use(toast)
 
 //安装vant插件
-// Vue.use(Vant);
 Vue.use(Icon);
 
 new Vue({
