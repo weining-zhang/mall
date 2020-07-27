@@ -30,6 +30,23 @@
 - [x] 商品加入购物车
 - [x] 购物车内商品勾选
 
+##  项目运行
+```
+# 克隆
+git clone https://github.com/weining-zhang/mall.git
+
+# 终端进入项目文件夹
+cd mall
+
+# 安装依赖
+npm install
+
+# 运行
+npm run serve
+
+访问: http://localhost:8080
+```
+
 ##  项目目录结构
 ```
 src                                             
@@ -142,21 +159,7 @@ src
        └─ profile
               └─ Profile.vue                    我的页面，为一个静态页面，未实现其他功能
 ```
-##  项目运行
-```
-# 克隆
-git clone https://github.com/weining-zhang/mall
 
-cd mall
-
-# 安装依赖
-npm install
-
-# 运行
-npm run serve
-
-访问: http://localhost:8080
-```
 ##  部分截图
 ###  **首页**  
 
