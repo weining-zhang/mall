@@ -148,3 +148,12 @@ npm run serve
 ##  部分截图
 **首页**
 ![](https://github.com/weining-zhang/mall/raw/master/src/screenshots/home1.png)
+![](https://github.com/weining-zhang/mall/raw/master/src/screenshots/home2.png)
+**商品详情页**
+![](https://github.com/weining-zhang/mall/raw/master/src/screenshots/detail.png)
+**分类页面**
+![](https://github.com/weining-zhang/mall/raw/master/src/screenshots/category.png)
+**购物车页面**
+![](https://github.com/weining-zhang/mall/raw/master/src/screenshots/cart.png)
+**我的页面**
+![](https://github.com/weining-zhang/mall/raw/master/src/screenshots/my.png)
