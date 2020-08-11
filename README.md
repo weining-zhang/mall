@@ -17,6 +17,7 @@
 ##  使用的插件或第三方库
 - 使用 vue-router 开发单页面
 - 使用 vuex 管理应用组件的状态
+- 使用 FastClick 解决移动端点击300ms延迟
 - 使用 vue-lazyload 实现图片的懒加载
 - 使用 axios 的封装从后端拿取数据
 - 使用 less 写部分组件的样式
