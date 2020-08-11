@@ -3,7 +3,7 @@ import axios from 'axios'
 export function request(config) {
     //1.创建axios实例
     const instance = axios.create({ //create里写的是公共的参数
-      baseURL: 'http://152.136.185.210:8000/api/n3',
+      baseURL: '需要接口请添加微信coderwhy003',
       timeout: 5000
     })
 
